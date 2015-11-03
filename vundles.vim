@@ -5,86 +5,59 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/vundle'
-
-Bundle 'tpope/vim-git'
+"自动括号
 Bundle 'tpope/vim-surround'
+"文件管理器
 Bundle 'scrooloose/nerdtree'
+"快速文档注释
 Bundle 'scrooloose/nerdcommenter'
+"语法检查
 Bundle 'scrooloose/syntastic'
+"vim主题管理
 Bundle 'godlygeek/csapprox'
+"文件打开历史
 Bundle 'vim-scripts/bufexplorer.zip'
-"Bundle 'vim-scripts/delimitMate.vim'
-Bundle 'vim-scripts/matchit.zip'
-Bundle 'sjl/gundo.vim'
+"git diff插件，实时显示
+Bundle 'airblade/vim-gitgutter'
+"状态栏中的git信息
 Bundle 'tpope/vim-fugitive'
+"taglist替代品
 Bundle 'majutsushi/tagbar'
 Bundle 'kien/ctrlp.vim'
+"显示打开过的文档
 Bundle 'mhinz/vim-startify'
+"状态栏
 Plugin 'bling/vim-airline'
-Bundle 'vim-scripts/YankRing.vim'
+"tab自动提示
 Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/DrawIt'
+"缩进线
 Bundle 'nathanaelkane/vim-indent-guides'
+"快速查找插件
 Bundle 'rking/ag.vim'
+"C++ STL高亮
 Bundle 'Mizuchi/STL-Syntax'
-
 " html & css quick editing
 Bundle 'mattn/emmet-vim'
-" need python suport
-Bundle 'klen/python-mode'
-Bundle 'SirVer/ultisnips'
+"代码补全
 Plugin 'honza/vim-snippets'
+"html标签匹配
 Bundle 'gregsexton/MatchTag'
-
-" solarized colorscheme
+"彩色主题
 Bundle 'altercation/vim-colors-solarized'
-
-" DoxyGen"
+"DoxyGen"
 Bundle 'vim-scripts/DoxyGen-Syntax'
 Bundle 'vim-scripts/DoxygenToolkit.vim'
-
-" CodeComplete"
-Bundle 'mbbill/code_complete'
-
-" Matrix"
+"Matrix保护屏
 Bundle 'uguu-org/vim-matrix-screensaver'
-
-" Taglist"
-"Bundle 'vim-scripts/taglist.vim'
-
-"Commenter"
-",cc  Comments out the current line or text selected in visual mode.
-",c<space>  Toggles the comment state of the selected line(s). If the topmost selected line is commented, all selected lines are uncommented and vice versa.
-",ci  Toggles the comment state of the selected line(s) individually. Each selected line that is commented  is uncommented and vice versa
-",cs Comments out the selected lines ``sexily'
-",c$  Comments the current line from the cursor to the end of line.
-",cy  Same as ,cc except that the commented line(s) are yanked before commenting.
-",cu  Uncomments the selected line(s). '
-Bundle 'vim-scripts/The-NERD-Commenter'
-
-
-"file change"
-"头/源文件切换命令
-":A 头文件／源文件切换
-":AS 分割窗后并切换头/源文件(切割为上下两个窗口)
-":AV 垂直切割窗口后切换头/源文件(切割为左右两个窗口)
-":AT 新建Vim标签式窗口后切换
-":AN 在多个匹配文件间循环切换
-"将光标所在处单词作为文件名打开
-":IH 切换至光标所在文件
-":IHS 分割窗口后切换至光标所在文件(指将光标所在处单词作为文件名打开)
-":IHV 垂直分割窗口后切换
-":IHT 新建标签式窗口后切换
-":IHN 在多个匹配文件间循环切换
-"快捷键操作
-"<Leader>ih 切换至光标所在文件*
-"<Leader>is 切换至光标所在处(单词所指)文件的配对文件(如光标所在处为foo.h，则切换至foo.c/foo.cpp...)
-"<Leader>ihn 在多个匹配文件间循环切换
-
+"头文件切换"
 Bundle 'vim-scripts/a.vim'
-
-
-"自动不全路径Shougo/neocomplcache.vim"
+"自动补全路径"
 Bundle 'Shougo/neocomplete.vim'
+"代码补全
+Bundle 'Valloric/YouCompleteMe'
 
-
+"Bundle 'tpope/vim-git'
+" CodeComplete"
+"Bundle 'mbbill/code_complete'
+"Bundle 'sjl/gundo.vim'

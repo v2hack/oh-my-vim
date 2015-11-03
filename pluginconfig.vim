@@ -8,20 +8,13 @@ let g:tagbar_autoshowtag = 1
 let g:tagbar_previewwin_pos = "aboveleft"
 let g:tagbar_autopreview = 1
 
-" pymode
-let g:pymode_warnings = 1
-let g:pymode_trim_whitespaces = 1
-let g:pymode_options = 1
-let g:pymode_lint_on_write = 0
-
 " supertab
 "let g:SuperTabMappingBackward = "<S-Tab>"
 let g:SuperTabMappingForward = "<S-Tab>"
 let g:SuperTabMappingTabLiteral = "<tab>"
 
 " vim-startify
-let g:startify_custom_header =
-            \ map(split(system('fortune | cowsay'), '\n'), '"   ". v:val') + ['','']
+let g:startify_custom_header = map(split(system('fortune | cowsay'), '\n'), '"   ". v:val') + ['','']
 
 " UltiSnips
 let g:UltiSnipsSnippetDirectories=['UltiSnips']
@@ -41,16 +34,11 @@ let g:airline#extensions#whitespace#enabled = 1
 " syntastic
 let g:syntastic_check_on_wq = 0
 
-" YankRing
-"nnoremap <silent> <F3> :YRShow<CR>
-"let g:yankring_replace_n_pkey=''
-
 " c.file and h.file change"
 nmap <silent> <F3> :A<cr>
 
-
 " gundo
-nnoremap <F2> :GundoToggle<CR>
+"nnoremap <F2> :GundoToggle<CR>
 
 " NerdTree
 nnoremap <F4> :NERDTreeToggle<cr>
@@ -106,9 +94,3 @@ inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
 inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
 inoremap <expr><C-y>  neocomplete#close_popup()
 inoremap <expr><C-e>  neocomplete#cancel_popup()
-" Close popup by <Space>.
-"inoremap <expr><Space> pumvisible() ? neocomplete#close_popup() : "\<Space>"
-
-" For cursor moving in insert mode(Not recommended)
-"inoremap <expr><Left>  neocomplete#close_popup() . "\<Left>"
-"inoremap <expr><Right> neocomplete#close_popup() . "\<Right>"
