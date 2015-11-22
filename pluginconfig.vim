@@ -1,13 +1,3 @@
-
-" tagbar
-nnoremap <F8> :TagbarToggle<cr>
-let g:tagbar_sort = 0
-let g:tagbar_autofocus = 1
-let g:tagbar_singleclick = 1
-let g:tagbar_autoshowtag = 1
-let g:tagbar_previewwin_pos = "aboveleft"
-let g:tagbar_autopreview = 1
-
 " supertab
 "let g:SuperTabMappingBackward = "<S-Tab>"
 let g:SuperTabMappingForward = "<S-Tab>"
@@ -45,6 +35,17 @@ nnoremap <F4> :NERDTreeToggle<cr>
 
 " buffer explorer
 nnoremap <F7> :BufExplorer<cr>
+
+" tagbar
+nnoremap <F8> :TagbarToggle<cr>
+"let g:tagbar_sort = 0
+let g:tagbar_autofocus = 1
+"let g:tagbar_singleclick = 1
+"let g:tagbar_autoshowtag = 1
+"let g:tagbar_previewwin_pos = "aboveleft"
+"let g:tagbar_autopreview = 1
+let g:tagbar_width=20
+
 
 " DoxygenToolkit.vim
 let g:DoxygenToolkit_authorName = 'nanye'
