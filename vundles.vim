@@ -40,7 +40,7 @@ Bundle 'Mizuchi/STL-Syntax'
 " html & css quick editing
 Bundle 'mattn/emmet-vim'
 "代码补全
-Plugin 'honza/vim-snippets'
+"Plugin 'honza/vim-snippets'
 "html标签匹配
 Bundle 'gregsexton/MatchTag'
 "彩色主题
@@ -56,6 +56,9 @@ Bundle 'vim-scripts/a.vim'
 Bundle 'Shougo/neocomplete.vim'
 "代码补全
 Bundle 'Valloric/YouCompleteMe'
+
+Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
 
 "Bundle 'tpope/vim-git'
 " CodeComplete"

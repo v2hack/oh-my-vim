@@ -1,7 +1,7 @@
 " supertab
 "let g:SuperTabMappingBackward = "<S-Tab>"
-let g:SuperTabMappingForward = "<S-Tab>"
-let g:SuperTabMappingTabLiteral = "<tab>"
+"let g:SuperTabMappingForward = "<S-Tab>"
+"let g:SuperTabMappingTabLiteral = "<tab>"
 
 " vim-startify
 let g:startify_custom_header = map(split(system('fortune | cowsay'), '\n'), '"   ". v:val') + ['','']
@@ -38,6 +38,9 @@ nnoremap <F7> :BufExplorer<cr>
 
 " tagbar
 nnoremap <F8> :TagbarToggle<cr>
+" ycm
+nnoremap <F9> :YcmForceCompileAndDiagnostics<CR>    "force recomile with syntastic
+
 "let g:tagbar_sort = 0
 let g:tagbar_autofocus = 1
 "let g:tagbar_singleclick = 1
