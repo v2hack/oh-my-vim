@@ -200,7 +200,7 @@ colorscheme default
 "let g:Powerline_colorscheme='solarized256'
 
 "开启路径补全"
-let g:neocomplete#enable_at_startup = 1
+"let g:neocomplete#enable_at_startup = 1
 
 "打开vim背景透明"
 hi Normal  ctermfg=252 ctermbg=none

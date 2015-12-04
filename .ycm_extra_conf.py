@@ -44,13 +44,15 @@ flags = [
 '-x',
 'c++',
 '-isystem',
-'/usr/include',
+'/usr/include/c++/v1',
 '-isystem',
 '/usr/local/include',
 '-isystem',
-'/usr/include/c++/4.8/'
+'/usr/local/bin/../lib/clang/3.7.0/include',
 '-isystem',
-'/usr/include/c++/4.8/tr1'
+'/usr/include/x86_64-linux-gnu',
+'-isystem',
+'/usr/include',
 '-I',
 '.'
 ]
@@ -62,7 +64,7 @@ flags = [
 #
 # Most projects will NOT need to set this to anything; you can just change the
 # 'flags' list of compilation flags.
-compilation_database_folder = '/home/ny/build'
+compilation_database_folder = ''
 
 if os.path.exists( compilation_database_folder ):
   database = ycm_core.CompilationDatabase( compilation_database_folder )

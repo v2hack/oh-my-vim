@@ -3,6 +3,8 @@ filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
+
 " let Vundle manage Vundle, required
 Plugin 'gmarik/vundle'
 "自动括号
@@ -29,7 +31,7 @@ Bundle 'mhinz/vim-startify'
 "状态栏
 Plugin 'bling/vim-airline'
 "tab自动提示
-Bundle 'ervandew/supertab'
+"Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/DrawIt'
 "缩进线
 Bundle 'nathanaelkane/vim-indent-guides'
@@ -53,12 +55,14 @@ Bundle 'uguu-org/vim-matrix-screensaver'
 "头文件切换"
 Bundle 'vim-scripts/a.vim'
 "自动补全路径"
-Bundle 'Shougo/neocomplete.vim'
+"Bundle 'Shougo/neocomplete.vim'
 "代码补全
 Bundle 'Valloric/YouCompleteMe'
 
 Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
+
+Bundle 'Valloric/ListToggle'
 
 "Bundle 'tpope/vim-git'
 " CodeComplete"
