@@ -31,7 +31,7 @@ Bundle 'mhinz/vim-startify'
 "状态栏
 Plugin 'bling/vim-airline'
 "tab自动提示
-"Bundle 'ervandew/supertab'
+Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/DrawIt'
 "缩进线
 Bundle 'nathanaelkane/vim-indent-guides'

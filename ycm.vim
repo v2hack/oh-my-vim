@@ -50,9 +50,11 @@ let g:UltiSnipsListSnippets="<c-e>"
 " for YouCompleteMe
 let g:ycm_error_symbol = 'e>'
 let g:ycm_warning_symbol = 'w>'
+
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
 let g:syntastic_cpp_include_dirs = ['/usr/include/']
 let g:syntastic_cpp_remove_include_errors = 1
 let g:syntastic_cpp_check_header = 1
