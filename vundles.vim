@@ -59,7 +59,7 @@ Bundle 'vim-scripts/a.vim'
 "代码补全
 Bundle 'Valloric/YouCompleteMe'
 
-Bundle 'SirVer/ultisnips'
+"Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
 
 Bundle 'Valloric/ListToggle'
