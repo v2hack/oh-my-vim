@@ -4,11 +4,13 @@ vim-configs
 -----------
 
 git clone oh-my-vim
+
 .. code-block:: shell
 
     git clone https://github.com/v2hack/oh-my-vim.git ~/.vim
 
 execute install script
+
 .. code-block:: shell
 
     bash ~/.vim/install.sh
@@ -30,6 +32,7 @@ execute install script
     sudo apt-get install vim-gtk3-py2
 
 编译YouCompleteMe
+
 .. code-block:: shell
 
     cd ~/.vim/bundle/YouCompleteMe
