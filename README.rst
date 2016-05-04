@@ -5,17 +5,19 @@ vim-configs
 
 git clone oh-my-vim
 ----------------------
-.. code-block:: c
+.. code-block:: shell
+
     git clone https://github.com/v2hack/oh-my-vim.git ~/.vim
 
 execute install script
 ------------------------
-.. code-block:: c
+.. code-block:: shell
+
     bash ~/.vim/install.sh
 
 编译YouCompleteMe
 ----------------------
-.. code-block:: c
+.. code-block:: shell
 
     sudo apt-get install python2.7
     sudo apt-get install libpython-dev
