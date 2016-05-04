@@ -1,22 +1,18 @@
 vim-configs
 ===========
 安装步骤：
-
+-----------
 
 git clone oh-my-vim
-----------------------
 .. code-block:: shell
 
     git clone https://github.com/v2hack/oh-my-vim.git ~/.vim
 
 execute install script
-------------------------
 .. code-block:: shell
 
     bash ~/.vim/install.sh
 
-编译YouCompleteMe
-----------------------
 .. code-block:: shell
 
     sudo apt-get install python2.7
@@ -30,6 +26,12 @@ execute install script
     sudo apt-get install python-dev python3-dev
     sudo apt-get install gvim
     sudo apt-get install vim-gtk3-py2
+
+编译YouCompleteMe
+.. code-block:: shell
+
+    cd ~/.vim/bundle/YouCompleteMe
+    git submodule update --init --recursive
     ./install.sh --clang-completer --system-libclang
 
 # 快速文档注释
