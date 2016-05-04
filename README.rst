@@ -20,8 +20,10 @@ execute install script
     sudo apt-get install clang-3.8
     sudo apt-get install libclang-3.8-dev
     sudo apt-get install clang-format-3.8
-    sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev libgtk2.0-dev libatk1.0-dev libbonoboui2-dev 
-    sudo apt-get install libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev ruby-dev mercurial checkinstall 
+    sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev 
+    sudo apt-get install libgtk2.0-dev libatk1.0-dev libbonoboui2-dev 
+    sudo apt-get install libcairo2-dev libx11-dev libxpm-dev libxt-dev 
+    sudo apt-get install python-dev ruby-dev mercurial checkinstall 
     sudo apt-get install ccache
     sudo apt-get install python-dev python3-dev
     sudo apt-get install gvim
