@@ -2,28 +2,33 @@ vim-configs
 ===========
 安装步骤：
 
-# mkdir vim config dir
-rm -rf ~/.vim
 
-# git clone vim configs
-git clone https://github.com/lennyhbt/vim-configs.git ~/.vim
+git clone oh-my-vim
+----------------------
+.. code-block:: c
+    git clone https://github.com/v2hack/oh-my-vim.git ~/.vim
 
-# execute install script
-bash ~/.vim/install.sh
+execute install script
+------------------------
+.. code-block:: c
+    bash ~/.vim/install.sh
 
-# 编译YouCompleteMe
-sudo apt-get install python2.7
-sudo apt-get install libpython-dev
-sudo apt-get install clang-3.8
-sudo apt-get install libclang-3.8-dev
-sudo apt-get install clang-format-3.8
-sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev libgtk2.0-dev libatk1.0-dev libbonoboui2-dev 
-sudo apt-get install libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev ruby-dev mercurial checkinstall 
-sudo apt-get install ccache
-sudo apt-get install python-dev python3-dev
-sudo apt-get install gvim
-sudo apt-get install vim-gtk3-py2
-./install.sh --clang-completer --system-libclang
+编译YouCompleteMe
+----------------------
+.. code-block:: c
+
+    sudo apt-get install python2.7
+    sudo apt-get install libpython-dev
+    sudo apt-get install clang-3.8
+    sudo apt-get install libclang-3.8-dev
+    sudo apt-get install clang-format-3.8
+    sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev libgtk2.0-dev libatk1.0-dev libbonoboui2-dev 
+    sudo apt-get install libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev ruby-dev mercurial checkinstall 
+    sudo apt-get install ccache
+    sudo apt-get install python-dev python3-dev
+    sudo apt-get install gvim
+    sudo apt-get install vim-gtk3-py2
+    ./install.sh --clang-completer --system-libclang
 
 # 快速文档注释
 ",cc  Comments out the current line or text selected in visual mode.
