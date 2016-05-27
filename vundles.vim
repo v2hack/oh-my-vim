@@ -63,6 +63,7 @@ Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
 
 Bundle 'Valloric/ListToggle'
+Plugin 'fatih/vim-go'
 
 "Bundle 'tpope/vim-git'
 " CodeComplete"
