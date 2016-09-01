@@ -67,7 +67,9 @@ vim-ag.vim
 
     :Ag [options] {pattern} [{directory}]
 
-![](https://github.com/v2hack/oh-my-vim/raw/master/image/ag-vim.png)
+
+![](https://github.com/v2hack/oh-my-vim/raw/master/img/ag-vim.png)
+
 
 快速文档注释
 ------------
