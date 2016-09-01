@@ -32,6 +32,7 @@ execute install script
     sudo apt-get install python-dev python3-dev
     sudo apt-get install gvim
     sudo apt-get install vim-gtk3-py2
+    sudo apt-get install silversearcher-ag
 
 编译YouCompleteMe
 -----------------
@@ -58,6 +59,15 @@ vim-surround
     ySS  - same as ySs
     ysiw) - add " on the word
 
+vim-ag.vim
+-----------
+
+
+.. code-block:: shell
+
+    :Ag [options] {pattern} [{directory}]
+
+![](https://github.com/v2hack/oh-my-vim/raw/master/image/ag-vim.png)
 
 快速文档注释
 ------------

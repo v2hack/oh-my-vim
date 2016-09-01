@@ -60,3 +60,6 @@ let g:DoxygenToolkit_versionString = '1.0'
 let g:acp_enableAtStartup = 1
 " Use neocomplete.
 
+" ag.vim
+let g:ag_working_path_mode='r'
+let g:ackprg = 'ag --nogroup --nocolor --column'
