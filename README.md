@@ -1,6 +1,6 @@
 # oh-my-vim
 
-## 安装步骤：
+## Setup：
 
 ### git clone oh-my-vim
 
@@ -25,13 +25,13 @@
     $ sudo apt-get install vim-gtk3-py2
     $ sudo apt-get install silversearcher-ag
 
-### 编译YouCompleteMe
+### compile YouCompleteMe
 
     $ cd ~/.vim/bundle/YouCompleteMe
     $ git submodule update --init --recursive
     $ ./install.sh --clang-completer --system-libclang
 
-## Shortcut key
+## Shortcut key:
 
 ### vim-surround
 
@@ -52,15 +52,14 @@
 ![](https://github.com/v2hack/oh-my-vim/raw/master/img/ag-vim.png)
 
 
-### 快速文档注释
+### Quick comment
 
     cc  Comments out the current line or text selected in visual mode.
-    c<space>  Toggles the comment state of the selected line(s). If
-        the topmost selected line is commented, all selected lines are
-        uncommented and vice versa.
-    ci  Toggles the comment state of the selected line(s) individually.
-        Each selected line that is commented  is uncommented and vice versa
-    cs Comments out the selected lines ``sexily'
+    c<space>  Toggles the comment state of the selected line(s). If the topmost selected line
+        is commented, all selected lines are uncommented and vice versa.
+    ci  Toggles the comment state of the selected line(s) individually. Each selected line that
+        is commented  is uncommented and vice versa
+    cs  Comments out the selected lines ``sexily'
     c$  Comments the current line from the cursor to the end of line.
     cy  Same as ,cc except that the commented line(s) are yanked before commenting.
 
