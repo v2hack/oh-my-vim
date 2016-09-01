@@ -1,54 +1,38 @@
-oh-my-vim
-===========
-安装步骤：
------------
+# oh-my-vim
 
-git clone oh-my-vim
---------------------
+## 安装步骤：
 
-.. code-block:: shell
+### git clone oh-my-vim
 
-    git clone https://github.com/v2hack/oh-my-vim.git ~/.vim
+    $ git clone https://github.com/v2hack/oh-my-vim.git ~/.vim
 
-execute install script
-----------------------
+### execute install script
 
-.. code-block:: shell
+    $ bash ~/.vim/install.sh
 
-    bash ~/.vim/install.sh
+    $ sudo apt-get install python2.7
+    $ sudo apt-get install libpython-dev
+    $ sudo apt-get install clang-3.8
+    $ sudo apt-get install libclang-3.8-dev
+    $ sudo apt-get install clang-format-3.8
+    $ sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev 
+    $ sudo apt-get install libgtk2.0-dev libatk1.0-dev libbonoboui2-dev 
+    $ sudo apt-get install libcairo2-dev libx11-dev libxpm-dev libxt-dev 
+    $ sudo apt-get install python-dev ruby-dev mercurial checkinstall 
+    $ sudo apt-get install ccache
+    $ sudo apt-get install python-dev python3-dev
+    $ sudo apt-get install gvim
+    $ sudo apt-get install vim-gtk3-py2
+    $ sudo apt-get install silversearcher-ag
 
-.. code-block:: shell
+### 编译YouCompleteMe
 
-    sudo apt-get install python2.7
-    sudo apt-get install libpython-dev
-    sudo apt-get install clang-3.8
-    sudo apt-get install libclang-3.8-dev
-    sudo apt-get install clang-format-3.8
-    sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev 
-    sudo apt-get install libgtk2.0-dev libatk1.0-dev libbonoboui2-dev 
-    sudo apt-get install libcairo2-dev libx11-dev libxpm-dev libxt-dev 
-    sudo apt-get install python-dev ruby-dev mercurial checkinstall 
-    sudo apt-get install ccache
-    sudo apt-get install python-dev python3-dev
-    sudo apt-get install gvim
-    sudo apt-get install vim-gtk3-py2
-    sudo apt-get install silversearcher-ag
-
-编译YouCompleteMe
------------------
-
-.. code-block:: shell
-
-    cd ~/.vim/bundle/YouCompleteMe
-    git submodule update --init --recursive
-    ./install.sh --clang-completer --system-libclang
+    $ cd ~/.vim/bundle/YouCompleteMe
+    $ git submodule update --init --recursive
+    $ ./install.sh --clang-completer --system-libclang
 
 
-vim-surround
----------------
-
-
-.. code-block:: shell
+### vim-surround
 
     ds   - delete a surrounding
     cs   - change a surrounding
@@ -59,22 +43,15 @@ vim-surround
     ySS  - same as ySs
     ysiw) - add " on the word
 
-vim-ag.vim
------------
+### vim-ag.vim
 
-
-.. code-block:: shell
-
-    :Ag [options] {pattern} [{directory}]
+    $ Ag [options] {pattern} [{directory}]
 
 
 ![](https://github.com/v2hack/oh-my-vim/raw/master/img/ag-vim.png)
 
 
-快速文档注释
-------------
-
-.. code-block:: shell
+### 快速文档注释
 
     cc  Comments out the current line or text selected in visual mode.
     c<space>  Toggles the comment state of the selected line(s). If
@@ -86,9 +63,7 @@ vim-ag.vim
     c$  Comments the current line from the cursor to the end of line.
     cy  Same as ,cc except that the commented line(s) are yanked before commenting.
 
-文件切换
------------
-.. code-block:: shell
+### 文件切换
 
    头/源文件切换命令
    A 头文件／源文件切换
