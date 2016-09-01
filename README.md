@@ -33,6 +33,15 @@
 
 ## Shortcut key:
 
+### my shortcut
+
+    <Leader>fef  -  format the whole file
+    <Leader>vs   -  vsplite the windows
+    <Leader>hs   -  splite the windows
+    <Leader>ul   -  underline the current line
+    <Leader>h    -  serach and high light current word
+    <Leader>/    -  clear high light
+
 ### vim-surround
 
     ds   - delete a surrounding

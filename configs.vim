@@ -9,7 +9,6 @@ if v:version >= 703
     "undo settings
     set undodir=~/.vim/.undofiles
     set undofile
-
     "set colorcolumn=+1 "mark the ideal max text width
 endif
 
@@ -205,6 +204,3 @@ colorscheme default
 "打开vim背景透明"
 hi Normal  ctermfg=252 ctermbg=none
 
-" When editing a file, always jump to the last cursor position.
-" " This must be after the uncompress commands.
-"au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
