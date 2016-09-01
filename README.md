@@ -57,6 +57,9 @@
 
     $ Ag [options] {pattern} [{directory}]
 
+    You can search the pattern string from all files in this directory, and list the result
+    under the windows, like the below picture, can't jump between the different files
+
 
 ![](https://github.com/v2hack/oh-my-vim/raw/master/img/ag-vim.png)
 
