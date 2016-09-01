@@ -4,12 +4,14 @@ oh-my-vim
 -----------
 
 git clone oh-my-vim
+--------------------
 
 .. code-block:: shell
 
     git clone https://github.com/v2hack/oh-my-vim.git ~/.vim
 
 execute install script
+----------------------
 
 .. code-block:: shell
 
@@ -32,12 +34,30 @@ execute install script
     sudo apt-get install vim-gtk3-py2
 
 编译YouCompleteMe
+-----------------
 
 .. code-block:: shell
 
     cd ~/.vim/bundle/YouCompleteMe
     git submodule update --init --recursive
     ./install.sh --clang-completer --system-libclang
+
+
+vim-surround
+---------------
+
+
+.. code-block:: shell
+
+    ds   - delete a surrounding
+    cs   - change a surrounding
+    ys   - add a surrounding
+    yS   - add a surrounding and place the surrounded text on a new line + indent it
+    ss   - add a surrounding to the whole line
+    ySs  - add a surrounding to the whole line, place it on a new line + indent it
+    ySS  - same as ySs
+    ysiw) - add " on the word
+
 
 快速文档注释
 ------------
