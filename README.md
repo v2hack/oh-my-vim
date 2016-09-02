@@ -109,6 +109,7 @@
     gg - go to declaration 
     gf - go to definition
     gg - go to definition else declaration
+    [ctrl-o] - go back
 
 ![](https://github.com/v2hack/oh-my-vim/raw/master/img/ycm.gif)
 

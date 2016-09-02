@@ -110,6 +110,7 @@ set sidescroll=1
 set matchpairs+=<:>
 
 " auto add tags file updirs
+map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 set tags+=/usr/include/tags
 set tags+=/usr/lib/gcc
 set tags+=./tags
