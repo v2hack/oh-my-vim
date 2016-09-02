@@ -77,12 +77,17 @@
 
 ### YouCompleteMe
 
-    YouCompleteMe (YCM) is a fast, as-you-type code completion engine for Vim. It combines and prioritizes the output from several sources:
+    YouCompleteMe (YCM) is a fast, as-you-type code completion engine for Vim. 
+    It combines and prioritizes the output from several sources:
 
     * An identifier-based engine that works with every programming language;
-    * A semantic, Clang-based engine that provides native semantic code completion for C/C++/Objective-C/Objective-C++ (from now on referred to as “the C-family languages”);
+    * A semantic, Clang-based engine that provides native semantic code completion for 
+      C/C++/Objective-C/Objective-C++ (from now on referred to as “the C-family languages”);
     * A Jedi-based completion engine for Python;
     * An OmniSharp-based completion engine for C#
-    * An omnifunc-based completer that uses data from Vim’s omnicomplete system to provide semantic completions for many other languages (Ruby, PHP, etc.).
+    * An omnifunc-based completer that uses data from Vim’s omnicomplete system to provide semantic
+      completions for many other languages (Ruby, PHP, etc.).
 
+
+![](https://github.com/v2hack/oh-my-vim/raw/master/img/ycm.gif)
 
