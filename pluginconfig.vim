@@ -63,3 +63,17 @@ let g:acp_enableAtStartup = 1
 " ag.vim
 let g:ag_working_path_mode='r'
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" OmniCppComplete
+set completeopt=menu,longest,menuone
+let OmniCpp_NamespaceSearch = 2
+let OmniCpp_GlobalScopeSearch = 1
+let OmniCpp_ShowAccess = 1
+let OmniCpp_ShowPrototypeInAbbr = 1
+let OmniCpp_MayCompleteDot = 1
+let OmniCpp_MayCompleteArrow = 1
+let OmniCpp_MayCompleteScope = 1
+let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
+let OmniCpp_SelectFirstItem = 2
+let OmniCpp_DisplayMode=1
+au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif

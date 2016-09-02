@@ -69,3 +69,6 @@ Plugin 'fatih/vim-go'
 " CodeComplete"
 "Bundle 'mbbill/code_complete'
 "Bundle 'sjl/gundo.vim'
+
+Bundle 'vim-scripts/OmniCppComplete'
+
