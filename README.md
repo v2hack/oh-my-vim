@@ -1,5 +1,18 @@
 # oh-my-vim
 
+## Project:
+
+    install.sh - install the vim project by it
+    vimrc - the vim's configure file, it include other *.vim file
+    autocmds.vim  - auto command
+    bindings.vim - some main shortcut and my leader in it 
+    configs.vim - vim's original configure
+    pluginconfig.vim - configure for some plugins
+    ycm.vim - for plugin YouCompleteMe
+    vundles.vim - add/delete the third plugin
+    bundle - plugins manager
+    colors - many themes
+
 ## Setup：
 
 ### git clone oh-my-vim
@@ -35,7 +48,7 @@
 
 ### my shortcut
 
-    My <Leader> is ",", it is defined in bindings.vim file, you can't change if you like
+    My <Leader> is "," - it is defined in bindings.vim file, you can't change if you like
 
     <Leader>fef  -  format the whole file
     <Leader>vs   -  vsplite the windows
