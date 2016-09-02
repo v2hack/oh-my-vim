@@ -35,6 +35,8 @@
 
 ### my shortcut
 
+    My <Leader> is ",", it is defined in bindings.vim file, you can't change if you like
+
     <Leader>fef  -  format the whole file
     <Leader>vs   -  vsplite the windows
     <Leader>hs   -  splite the windows
@@ -88,6 +90,9 @@
     * An omnifunc-based completer that uses data from Vim’s omnicomplete system to provide semantic
       completions for many other languages (Ruby, PHP, etc.).
 
+    gg - go to declaration 
+    gf - go to definition
+    gg - go to definition else declaration
 
 ![](https://github.com/v2hack/oh-my-vim/raw/master/img/ycm.gif)
 
