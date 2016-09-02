@@ -8,8 +8,8 @@ inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDow
 inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
 " 跳转到定义处
 "nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
-" nnoremap <leader>lo :lopen<CR>    "open locationlist
-" nnoremap <leader>lc :lclose<CR>   "close locationlist
+"nnoremap <leader>lo :lopen<CR>    "open locationlist
+"nnoremap <leader>lc :lclose<CR>   "close locationlist
 inoremap <leader><leader> <C-x><C-o>
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
@@ -54,6 +54,7 @@ let g:ycm_warning_symbol = 'w>'
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nmap <F5> :YcmDiags<CR>
 
 let g:syntastic_cpp_include_dirs = ['/usr/include/']
 let g:syntastic_cpp_remove_include_errors = 1
@@ -61,6 +62,7 @@ let g:syntastic_cpp_check_header = 1
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libstdc++'
 let g:syntastic_enable_balloons = 1 "whether to show balloons
+
 
 " UltiSnips completion function that tries to expand a snippet. If there's no
 " snippet for expanding, it checks for completion window and if it's
