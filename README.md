@@ -2,16 +2,19 @@
 
 ## Project:
 
-    install.sh - install the vim project by it
-    vimrc - the vim's configure file, it include other *.vim file
-    autocmds.vim  - auto command
-    bindings.vim - some main shortcut and my leader in it 
-    configs.vim - vim's original configure
-    pluginconfig.vim - configure for some plugins
-    ycm.vim - for plugin YouCompleteMe
-    vundles.vim - add/delete the third plugin
-    bundle - plugins manager
-    colors - many themes
+    Oh-my-vim is my Ide, I like it. Do anything with it, fast and convenient.
+    it contains many plugins, they are recorded in the vundles.vim file.
+
+    install.sh        - install the vim project by it
+    vimrc             - the vim's configure file, it include other *.vim file
+    autocmds.vim      - auto command
+    bindings.vim      - some main shortcut and my leader in it 
+    configs.vim       - vim's original configure
+    pluginconfig.vim  - configure for some plugins
+    ycm.vim           - for plugin YouCompleteMe
+    vundles.vim       - add/delete the third plugin
+    bundle            - plugins manager
+    colors            - many themes
 
 ## Setup：
 
