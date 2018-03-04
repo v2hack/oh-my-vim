@@ -18,7 +18,7 @@ Bundle 'scrooloose/syntastic'
 "vim主题管理
 Bundle 'godlygeek/csapprox'
 "文件打开历史
-Bundle 'vim-scripts/bufexplorer.zip'
+Bundle 'lostedleo/bufexplorer'
 "git diff插件，实时显示
 Bundle 'airblade/vim-gitgutter'
 "状态栏中的git信息
