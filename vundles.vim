@@ -57,7 +57,7 @@ Bundle 'vim-scripts/a.vim'
 "自动补全路径"
 "Bundle 'Shougo/neocomplete.vim'
 "代码补全
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 
 Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
